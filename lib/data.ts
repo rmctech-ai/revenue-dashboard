@@ -58,3 +58,18 @@ export const navItems = [
   { label: "Revenue", href: "/revenue", icon: "DollarSign" },
   { label: "Settings", href: "/settings", icon: "Settings" },
 ];
+
+export const transactions = [
+  { id: "TXN001", client: "Acme Corp", amount: 2500, status: "Paid" as const, date: "2024-03-15", type: "Subscription" as const },
+  { id: "TXN002", client: "TechFlow Solutions", amount: 4200, status: "Paid" as const, date: "2024-03-14", type: "Consulting" as const },
+  { id: "TXN003", client: "CloudNine Digital", amount: 1800, status: "Pending" as const, date: "2024-03-13", type: "One-time" as const },
+  { id: "TXN004", client: "Summit Analytics", amount: 3100, status: "Paid" as const, date: "2024-03-12", type: "Subscription" as const },
+  { id: "TXN005", client: "BrightPath Media", amount: 950, status: "Overdue" as const, date: "2024-03-10", type: "One-time" as const },
+  { id: "TXN006", client: "Nexus Innovations", amount: 3750, status: "Paid" as const, date: "2024-03-09", type: "Consulting" as const },
+  { id: "TXN007", client: "Vertex Labs", amount: 2200, status: "Pending" as const, date: "2024-03-08", type: "Subscription" as const },
+  { id: "TXN008", client: "Aurora Enterprises", amount: 4800, status: "Paid" as const, date: "2024-03-07", type: "Consulting" as const },
+  { id: "TXN009", client: "Pinnacle Systems", amount: 1500, status: "Paid" as const, date: "2024-03-06", type: "One-time" as const },
+  { id: "TXN010", client: "Horizon Ventures", amount: 2900, status: "Paid" as const, date: "2024-03-05", type: "Subscription" as const },
+  { id: "TXN011", client: "Redwood Analytics", amount: 3300, status: "Pending" as const, date: "2024-03-04", type: "Consulting" as const },
+  { id: "TXN012", client: "Atlas Digital", amount: 1200, status: "Overdue" as const, date: "2024-03-03", type: "One-time" as const },
+];

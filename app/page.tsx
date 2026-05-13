@@ -1,6 +1,7 @@
 import { StatCard } from "@/components/stat-card";
 import { RevenueChart } from "@/components/revenue-chart";
 import { SourceChart } from "@/components/source-chart";
+import { TransactionsTable } from "@/components/transactions-table";
 import { metrics } from "@/lib/data";
 
 export default function DashboardPage() {
@@ -29,6 +30,8 @@ export default function DashboardPage() {
         <RevenueChart />
         <SourceChart />
       </div>
+
+      <TransactionsTable />
     </div>
   );
 }
