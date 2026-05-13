@@ -33,7 +33,7 @@ export function RevenueChart() {
               tickFormatter={(value) => `$${value / 1000}k`}
             />
             <Tooltip
-              formatter={(value: number) => [`$${value.toLocaleString()}`, "Revenue"]}
+            formatter={(value) => [`$${Number(value).toLocaleString()}`, "Revenue"]}
             />
             <Line
               type="monotone"

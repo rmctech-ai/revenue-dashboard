@@ -33,7 +33,7 @@ export function SourceChart() {
               tickFormatter={(value) => `$${value / 1000}k`}
             />
             <Tooltip
-              formatter={(value: number) => [`$${value.toLocaleString()}`, "Amount"]}
+            formatter={(value) => [`$${Number(value).toLocaleString()}`, "Amount"]}
             />
             <Bar
               dataKey="amount"
